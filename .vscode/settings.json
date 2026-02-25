@@ -2,13 +2,11 @@
 	"search.exclude": {
 		"export/**/*.*": true
 	},
+	
 	"[haxe]": {
-		"editor.formatOnSave": true,
-		"editor.formatOnSaveMode":"modifications",
-		"editor.formatOnPaste": false,
-		"editor.codeActionsOnSave": {
-			"source.sortImports": "explicit"
-		}
+		"editor.defaultFormatter": "nadako.vshaxe",
 	},
-	"haxe.enableExtendedIndentation": true
+
+	"prettier.tabWidth": 8,
+	"editor.tabSize": 8,
 }
